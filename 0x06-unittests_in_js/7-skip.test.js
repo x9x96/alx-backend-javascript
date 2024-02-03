@@ -17,5 +17,9 @@ describe('Testing numbers', () => {
     expect(3 === 3).to.be.true;
   });
 
+  it('4 is equal to 4', () => {
+    expect(4 === 4).to.be.true;
+  });
+
 
 
