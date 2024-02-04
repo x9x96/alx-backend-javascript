@@ -7,19 +7,6 @@ class Utils {
 	case 'SUM':
             c = an + bn;
             break;
-	case 'SUBTRACT':
-            c = an - bn;
-            break;
-	case 'DIVIDE':
-	    if (bn === 0) {
-		c = "Error";
-	    } else {
-		c = an / bn;
-	    }
-	    break;
-	}
-	return c;
-    }
 }
 
 module.exports = Utils;
