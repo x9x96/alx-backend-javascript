@@ -17,6 +17,9 @@ class Utils {
 	    }
 	    break;
 	}
+	return c;
+    }
+            break;
 }
 
 module.exports = Utils;
