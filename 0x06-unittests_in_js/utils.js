@@ -7,6 +7,9 @@ class Utils {
 	case 'SUM':
             c = an + bn;
             break;
+	case 'SUBTRACT':
+            c = an - bn;
+            break;
 }
 
 module.exports = Utils;
